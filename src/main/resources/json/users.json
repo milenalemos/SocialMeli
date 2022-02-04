@@ -1,0 +1,109 @@
+[
+  {
+    "userId": 1,
+    "userName": "Milena",
+    "followed" : [
+      {
+        "userId": 6, "userName": "Pedro", "followers" : [], "pots" :[
+        {
+          "user_id": 1,
+          "date": "02-02-2022",
+          "detail": {
+            "productId": 1,
+            "productName": "Silla Gamer",
+            "type": "Gamer",
+            "brand": "Racer",
+            "color": "Red & Black",
+            "notes": "Special Edition"
+          },
+          "category": 100,
+          "price": 1500.5
+        }
+      ]
+      },
+      {
+        "userId": 7, "userName": "Emmanuel", "followers" : [], "pots" :[]
+      },
+      {
+        "userId": 8, "userName": "Zoilo", "followers" : [], "pots" :[]
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "userName": "Maria",
+    "followed" : [
+      {
+        "userId": 1,
+        "userName": "Jose",
+        "followers" : [],
+        "pots" : [
+        {
+          "user_id": 1,
+          "date": "02-02-2022",
+          "detail": {
+            "productId": 1,
+            "productName": "Silla Gamer",
+            "type": "Gamer",
+            "brand": "Racer",
+            "color": "Red & Black",
+            "notes": "Special Edition"
+          },
+          "category": 100,
+          "price": 1500.5
+        }
+      ]
+      }, {
+        "userId": 2, "userName": "Nicolas", "followers" : [], "pots" : [
+          {
+            "user_id": 2,
+            "date": "03-02-2022",
+            "detail": {
+              "productId": 4,
+              "productName": "Escritorio",
+              "type": "Oficina",
+              "brand": "Mader",
+              "color": "White",
+              "notes": "Limited Edition"
+            },
+            "category": 89,
+            "price": 1000.0
+          }
+        ]
+      },
+      {
+        "userId": 3, "userName": "Matias", "followers" : [], "pots" : []
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "userName": "Nicolas",
+    "followed" : [
+      {
+        "userId": 4, "userName": "Daniel", "followers" : [], "pots" :[]
+      },
+      {
+        "userId": 9, "userName": "Franco", "followers" : [], "pots" :[]
+      },
+      {
+        "userId": 10, "userName": "Javier", "followers" : [], "pots" : []
+      },
+      {
+        "userId": 11, "userName": "Noelia", "followers" : [], "pots" : []
+      }
+    ]
+  },
+  {
+    "userId": 4,
+    "userName": "Malena",
+    "followed" : [{ "userId": 3, "userName": "Matias", "followers" : [], "pots" : []
+    }
+    ]
+  },
+  {
+    "userId": 5,
+    "userName": "Sebastian",
+    "followed" : []
+  }
+]

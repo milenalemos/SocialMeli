@@ -1,0 +1,178 @@
+[
+  {
+    "userId": 1,
+    "userName": "Jose",
+    "followers" : [
+      {
+      "userId": 2,
+      "userName": "Maria",
+        "followed" : []
+    }
+    ],
+    "pots" : [
+      {
+        "user_id": 1,
+        "date": "02-02-2022",
+        "detail": {
+          "productId": 1,
+          "productName": "Silla Gamer",
+          "type": "Gamer",
+          "brand": "Racer",
+          "color": "Red & Black",
+          "notes": "Special Edition"
+        },
+        "category": 100,
+        "price": 1500.5
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "userName": "Nicolas",
+    "followers" : [
+      {
+        "userId": 2,
+        "userName": "Maria",
+        "followed": []
+      }
+    ],
+    "pots" : [
+      {
+      "user_id": 2,
+      "date": "01-02-2022",
+      "detail": {
+        "productId": 4,
+        "productName": "Escritorio",
+        "type": "Oficina",
+        "brand": "Mader",
+        "color": "White",
+        "notes": "Limited Edition"
+      },
+     "category": 89,
+      "price": 1000.0
+    }
+  ]
+  },
+  {
+    "userId": 3,
+    "userName": "Matias",
+    "followers" : [
+      {
+        "userId": 4,
+        "userName": "Malena",
+        "followed" :[]
+      },
+      {
+        "userId": 2,
+        "userName": "Maria",
+        "followed": []
+      }
+    ],
+    "pots" :[]
+  },
+  {
+    "userId": 4,
+    "userName": "Daniel",
+    "followers" : [
+      {
+        "userId": 3,
+        "userName": "Nicolas",
+        "followed": []
+      }
+    ],
+    "pots" :[]
+  },
+  {
+    "userId": 5,
+    "userName": "Gustavo",
+    "followers" : [],
+    "pots" :[]
+  },
+  {
+    "userId": 6,
+    "userName": "Pedro",
+    "followers" : [
+      {
+        "userId": 1,
+        "userName": "Milena",
+        "followed" :[]
+      }
+    ],
+    "pots" :[
+      {
+        "user_id": 1,
+        "date": "02-02-2022",
+        "detail": {
+          "productId": 1,
+          "productName": "Silla Gamer",
+          "type": "Gamer",
+          "brand": "Racer",
+          "color": "Red & Black",
+          "notes": "Special Edition"
+        },
+        "category": 100,
+        "price": 1500.5
+      }
+    ]
+  },
+  {
+    "userId": 7,
+    "userName": "Emmanuel",
+    "followers" : [
+      {
+        "userId": 1,
+        "userName": "Milena",
+        "followed": []
+      }
+    ],
+    "pots" :[]
+  },
+  {
+    "userId": 8,
+    "userName": "Zoilo",
+    "followers" : [
+      {
+        "userId": 1,
+        "userName": "Milena",
+        "followed": []
+      }
+    ],
+    "pots" :[]
+  },
+  {
+    "userId": 9,
+    "userName": "Franco",
+    "followers" : [{
+      "userId": 3,
+      "userName": "Nicolas",
+      "followed": []
+    }],
+    "pots" :[]
+  },
+  {
+    "userId": 10,
+    "userName": "Javier",
+    "followers" : [{
+      "userId": 3,
+      "userName": "Nicolas",
+      "followed": []
+    }],
+    "pots" :[]
+  },
+  {
+    "userId": 11,
+    "userName": "Noelia",
+    "followers" : [{
+      "userId": 3,
+      "userName": "Nicolas",
+      "followed": []
+    }],
+    "pots" :[]
+  },
+  {
+    "userId": 12,
+    "userName": "Camila",
+    "followers" : [],
+    "pots" :[]
+  }
+]

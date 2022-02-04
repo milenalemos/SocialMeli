@@ -1,0 +1,27 @@
+package com.company.Sprint.I.dto;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import lombok.*;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+
+@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
+
+public class PostDTO implements Serializable {
+
+    private Integer postId;
+    @JsonFormat(pattern = "dd-MM-yyyy")
+    private LocalDate date;
+    private ProductDTO detail;
+    private Integer category;
+    private Double price;
+}
